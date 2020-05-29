@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,6 +46,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbstractFactory\Interfaces\IMobilePhone.cs" />
+    <Compile Include="AbstractFactory\Interfaces\INormalPhone.cs" />
+    <Compile Include="AbstractFactory\Interfaces\ISmartPhone.cs" />
+    <Compile Include="AbstractFactory\MobileClient.cs" />
+    <Compile Include="AbstractFactory\Nokia.cs" />
+    <Compile Include="AbstractFactory\Nokia1600.cs" />
+    <Compile Include="AbstractFactory\NokiaPixel.cs" />
+    <Compile Include="AbstractFactory\Samsung.cs" />
+    <Compile Include="AbstractFactory\SamsungGalaxy.cs" />
+    <Compile Include="AbstractFactory\SamsungGuru.cs" />
+    <Compile Include="Builder\Interfaces\IToyBuilder.cs" />
+    <Compile Include="Builder\Toy.cs" />
+    <Compile Include="Builder\ToyABuilder.cs" />
+    <Compile Include="Builder\ToyBBuilder.cs" />
+    <Compile Include="Builder\ToyCreator.cs" />
     <Compile Include="FactoryMethod\ConcreteProduct.cs" />
     <Compile Include="FactoryMethod\Pasta.cs" />
     <Compile Include="FactoryMethod\Product.cs" />
@@ -52,6 +70,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
