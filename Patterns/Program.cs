@@ -2,6 +2,7 @@
 using Patterns.AbstractFactory;
 using Patterns.Builder;
 using Patterns.FactoryMethod;
+using Patterns.Prototype;
 using System;
 
 namespace Patterns
@@ -33,6 +34,7 @@ namespace Patterns
 
             Console.ReadKey();
 
+
             /*------Builder ------*/
             Console.WriteLine("-------------------------List Of Toys-----------------------------------");
             var toyACreator = new ToyCreator(new ToyABuilder());
@@ -46,6 +48,17 @@ namespace Patterns
             Console.WriteLine(JsonConvert.SerializeObject(toyA));
 
             Console.ReadKey();
+
+
+            /*-------------------------------------Prototype -----------------------------------------*/
+            Console.WriteLine("------------------------- Prototype example -----------------------------------");
+            ConcretePrototype1 cp1 = new ConcretePrototype1("This is Concrete 1");
+            ConcretePrototype1 cc1 = (ConcretePrototype1)cp1.Clone();
+            Console.WriteLine("Cloned: {0}", cc1.Id);
+            ConcretePrototype2 cp2 = new ConcretePrototype2("This is Concrete 2");
+            ConcretePrototype2 cc2 = (ConcretePrototype2)cp2.Clone();
+            Console.WriteLine("Cloned: {0}", cc2.Id);
+            Console.ReadLine();
         }
     }
 }

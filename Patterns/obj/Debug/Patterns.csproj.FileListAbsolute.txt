@@ -8,3 +8,13 @@ D:\IDP\Desigion Patterns\Patterns\Patterns\obj\Debug\Patterns.pdb
 D:\IDP\Desigion Patterns\Patterns\Patterns\bin\Debug\Newtonsoft.Json.dll
 D:\IDP\Desigion Patterns\Patterns\Patterns\bin\Debug\Newtonsoft.Json.xml
 D:\IDP\Desigion Patterns\Patterns\Patterns\obj\Debug\Patterns.csproj.CopyComplete
+F:\work-test\Desigin Patterns\Patterns\Patterns\bin\Debug\Patterns.exe.config
+F:\work-test\Desigin Patterns\Patterns\Patterns\bin\Debug\Patterns.exe
+F:\work-test\Desigin Patterns\Patterns\Patterns\bin\Debug\Patterns.pdb
+F:\work-test\Desigin Patterns\Patterns\Patterns\bin\Debug\Newtonsoft.Json.dll
+F:\work-test\Desigin Patterns\Patterns\Patterns\bin\Debug\Newtonsoft.Json.xml
+F:\work-test\Desigin Patterns\Patterns\Patterns\obj\Debug\Patterns.csprojAssemblyReference.cache
+F:\work-test\Desigin Patterns\Patterns\Patterns\obj\Debug\Patterns.csproj.CoreCompileInputs.cache
+F:\work-test\Desigin Patterns\Patterns\Patterns\obj\Debug\Patterns.csproj.CopyComplete
+F:\work-test\Desigin Patterns\Patterns\Patterns\obj\Debug\Patterns.exe
+F:\work-test\Desigin Patterns\Patterns\Patterns\obj\Debug\Patterns.pdb
