@@ -43,6 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapter\Interfaces\ITarget.cs" />
+    <Compile Include="Adapter\VendorAdaptee.cs" />
+    <Compile Include="Adapter\VendorAdapter.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -50,8 +53,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Adapter\" />
-    <Folder Include="Bridge\" />
+    <Folder Include="Bridge\Interfaces\" />
     <Folder Include="Composite\" />
     <Folder Include="Decorator\" />
     <Folder Include="Facade\" />

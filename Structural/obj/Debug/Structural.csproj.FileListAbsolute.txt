@@ -1,0 +1,7 @@
+D:\IDP\Desigion Patterns\Patterns\Structural\bin\Debug\Structural.exe.config
+D:\IDP\Desigion Patterns\Patterns\Structural\bin\Debug\Structural.exe
+D:\IDP\Desigion Patterns\Patterns\Structural\bin\Debug\Structural.pdb
+D:\IDP\Desigion Patterns\Patterns\Structural\obj\Debug\Structural.csprojAssemblyReference.cache
+D:\IDP\Desigion Patterns\Patterns\Structural\obj\Debug\Structural.csproj.CoreCompileInputs.cache
+D:\IDP\Desigion Patterns\Patterns\Structural\obj\Debug\Structural.exe
+D:\IDP\Desigion Patterns\Patterns\Structural\obj\Debug\Structural.pdb
