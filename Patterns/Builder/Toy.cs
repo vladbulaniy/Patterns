@@ -1,4 +1,4 @@
-﻿namespace Patterns.Builder
+﻿namespace Creational.Builder
 {
     public class Toy
     {

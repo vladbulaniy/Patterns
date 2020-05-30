@@ -1,10 +1,11 @@
 ﻿using Newtonsoft.Json;
-using Patterns.AbstractFactory;
-using Patterns.Builder;
-using Patterns.FactoryMethod;
+using Creational.AbstractFactory;
+using Creational.Builder;
+using Creational.FactoryMethod;
+using Creational.Singleton;
 using System;
 
-namespace Patterns
+namespace Creational
 {
     class Program
     {
@@ -44,8 +45,26 @@ namespace Patterns
             
             Console.WriteLine(JsonConvert.SerializeObject(toyB));
             Console.WriteLine(JsonConvert.SerializeObject(toyA));
-
+            Console.WriteLine();
             Console.ReadKey();
+
+
+            /*----------------------------Singleton ---------------------------*/
+            Console.WriteLine("-------------------------Singleton-----------------------------------");
+            Calculate.Instance.ValueOne = 10.5;
+            Calculate.Instance.ValueTwo = 5.5;
+            Console.WriteLine("Addition : " + Calculate.Instance.Addition());
+            Console.WriteLine("Subtraction : " + Calculate.Instance.Subtraction());
+            Console.WriteLine("Multiplication : " + Calculate.Instance.Multiplication());
+            Console.WriteLine("Division : " + Calculate.Instance.Division());
+            Console.WriteLine("\n----------------------\n");
+            Calculate.Instance.ValueTwo = 10.5;
+            Console.WriteLine("Addition : " + Calculate.Instance.Addition());
+            Console.WriteLine("Subtraction : " + Calculate.Instance.Subtraction());
+            Console.WriteLine("Multiplication : " + Calculate.Instance.Multiplication());
+            Console.WriteLine("Division : " + Calculate.Instance.Division());
+            Console.WriteLine();
+            Console.ReadLine();
         }
     }
 }

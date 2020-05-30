@@ -1,6 +1,6 @@
-﻿using Patterns.AbstractFactory.Interfaces;
+﻿using Creational.AbstractFactory.Interfaces;
 
-namespace Patterns.AbstractFactory
+namespace Creational.AbstractFactory
 {
     public class Nokia1600 : INormalPhone
     {

@@ -67,6 +67,8 @@
     <Compile Include="FactoryMethod\ProductFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Singleton\Calculate.cs" />
+    <Compile Include="Singleton\Singleton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -1,0 +1,10 @@
+D:\IDP\Desigion Patterns\Patterns\Patterns\bin\Debug\Patterns.exe.config
+D:\IDP\Desigion Patterns\Patterns\Patterns\bin\Debug\Patterns.exe
+D:\IDP\Desigion Patterns\Patterns\Patterns\bin\Debug\Patterns.pdb
+D:\IDP\Desigion Patterns\Patterns\Patterns\bin\Debug\Newtonsoft.Json.dll
+D:\IDP\Desigion Patterns\Patterns\Patterns\bin\Debug\Newtonsoft.Json.xml
+D:\IDP\Desigion Patterns\Patterns\Patterns\obj\Debug\Creational.csprojAssemblyReference.cache
+D:\IDP\Desigion Patterns\Patterns\Patterns\obj\Debug\Creational.csproj.CoreCompileInputs.cache
+D:\IDP\Desigion Patterns\Patterns\Patterns\obj\Debug\Creational.csproj.CopyComplete
+D:\IDP\Desigion Patterns\Patterns\Patterns\obj\Debug\Patterns.exe
+D:\IDP\Desigion Patterns\Patterns\Patterns\obj\Debug\Patterns.pdb
