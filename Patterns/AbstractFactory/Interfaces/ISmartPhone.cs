@@ -1,4 +1,4 @@
-﻿namespace Patterns.AbstractFactory.Interfaces
+﻿namespace Creational.AbstractFactory.Interfaces
 {
     public interface ISmartPhone
     {

@@ -1,4 +1,4 @@
-﻿namespace Patterns.FactoryMethod
+﻿namespace Creational.FactoryMethod
 {
     public abstract class Product
     {

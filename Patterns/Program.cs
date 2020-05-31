@@ -1,11 +1,11 @@
 ﻿using Newtonsoft.Json;
-using Patterns.AbstractFactory;
-using Patterns.Builder;
-using Patterns.FactoryMethod;
-using Patterns.Prototype;
+using Creational.AbstractFactory;
+using Creational.Builder;
+using Creational.FactoryMethod;
+using Creational.Singleton;
 using System;
 
-namespace Patterns
+namespace Creational
 {
     class Program
     {
@@ -46,7 +46,7 @@ namespace Patterns
             
             Console.WriteLine(JsonConvert.SerializeObject(toyB));
             Console.WriteLine(JsonConvert.SerializeObject(toyA));
-
+            Console.WriteLine();
             Console.ReadKey();
 
 
@@ -58,6 +58,21 @@ namespace Patterns
             ConcretePrototype2 cp2 = new ConcretePrototype2("This is Concrete 2");
             ConcretePrototype2 cc2 = (ConcretePrototype2)cp2.Clone();
             Console.WriteLine("Cloned: {0}", cc2.Id);
+            /*----------------------------Singleton ---------------------------*/
+            Console.WriteLine("-------------------------Singleton-----------------------------------");
+            Calculate.Instance.ValueOne = 10.5;
+            Calculate.Instance.ValueTwo = 5.5;
+            Console.WriteLine("Addition : " + Calculate.Instance.Addition());
+            Console.WriteLine("Subtraction : " + Calculate.Instance.Subtraction());
+            Console.WriteLine("Multiplication : " + Calculate.Instance.Multiplication());
+            Console.WriteLine("Division : " + Calculate.Instance.Division());
+            Console.WriteLine("\n----------------------\n");
+            Calculate.Instance.ValueTwo = 10.5;
+            Console.WriteLine("Addition : " + Calculate.Instance.Addition());
+            Console.WriteLine("Subtraction : " + Calculate.Instance.Subtraction());
+            Console.WriteLine("Multiplication : " + Calculate.Instance.Multiplication());
+            Console.WriteLine("Division : " + Calculate.Instance.Division());
+            Console.WriteLine();
             Console.ReadLine();
         }
     }

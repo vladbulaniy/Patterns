@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 using System.Runtime.ExceptionServices;
 
-namespace Patterns.FactoryMethod
+namespace Creational.FactoryMethod
 {
     public static class ProductFactory
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Patterns.FactoryMethod
+namespace Creational.FactoryMethod
 {
     public class ConcreteProduct: Product
     {

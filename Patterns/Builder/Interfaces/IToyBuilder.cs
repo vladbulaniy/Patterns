@@ -1,4 +1,4 @@
-﻿namespace Patterns.Builder.Interfaces
+﻿namespace Creational.Builder.Interfaces
 {
     public interface IToyBuilder
     {

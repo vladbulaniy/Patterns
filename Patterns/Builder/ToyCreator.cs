@@ -1,6 +1,6 @@
-﻿using Patterns.Builder.Interfaces;
+﻿using Creational.Builder.Interfaces;
 
-namespace Patterns.Builder
+namespace Creational.Builder
 {
     public class ToyCreator
     {
