@@ -46,6 +46,12 @@
     <Compile Include="Adapter\Interfaces\ITarget.cs" />
     <Compile Include="Adapter\VendorAdaptee.cs" />
     <Compile Include="Adapter\VendorAdapter.cs" />
+    <Compile Include="Bridge\Interfaces\IBridgeComponent.cs" />
+    <Compile Include="Bridge\SendData.cs" />
+    <Compile Include="Bridge\SendEmail.cs" />
+    <Compile Include="Bridge\SendSMS.cs" />
+    <Compile Include="Bridge\ThirdPartyAPI.cs" />
+    <Compile Include="Bridge\WebService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -53,7 +59,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Bridge\Interfaces\" />
     <Folder Include="Composite\" />
     <Folder Include="Decorator\" />
     <Folder Include="Facade\" />
