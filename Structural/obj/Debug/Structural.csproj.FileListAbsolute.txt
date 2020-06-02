@@ -12,3 +12,6 @@ F:\work-test\Desigin Patterns\Patterns\Structural\obj\Debug\Structural.csprojAss
 F:\work-test\Desigin Patterns\Patterns\Structural\obj\Debug\Structural.csproj.CoreCompileInputs.cache
 F:\work-test\Desigin Patterns\Patterns\Structural\obj\Debug\Structural.exe
 F:\work-test\Desigin Patterns\Patterns\Structural\obj\Debug\Structural.pdb
+D:\IDP\Desigion Patterns\Patterns\Structural\bin\Debug\Newtonsoft.Json.dll
+D:\IDP\Desigion Patterns\Patterns\Structural\bin\Debug\Newtonsoft.Json.xml
+D:\IDP\Desigion Patterns\Patterns\Structural\obj\Debug\Structural.csproj.CopyComplete

@@ -1,9 +1,11 @@
-﻿using Structural.Adapter;
+﻿using Newtonsoft.Json;
+using Structural.Adapter;
 using Structural.Adapter.Interfaces;
 using Structural.Bridge;
 using Structural.Composite;
 using Structural.Decorator;
 using Structural.Facade;
+using Structural.Flyweight;
 using System;
 using System.Collections.Generic;
 
@@ -102,6 +104,37 @@ namespace Structural
 
             Console.ReadLine();
 
+
+            /*---------------------------- Flyweight ---------------------------*/
+            Console.WriteLine();
+            Console.WriteLine("------------------------- Flyweight -----------------------------------");
+            CompanyInformation company = new CompanyInformation();
+            company.CompanyName = "ABC Company";
+            company.Address = "Company Address";
+
+            var reportA = ReportFactory.GetReport("A");
+            reportA.SetCompanyInformation(company);
+            Console.WriteLine($" report A: {JsonConvert.SerializeObject(reportA)}");
+
+            var reportA1 = ReportFactory.GetReport("A");
+            reportA1.SetCompanyInformation(company);
+            Console.WriteLine($" report A1: {JsonConvert.SerializeObject(reportA1)}");
+
+            var reportB = ReportFactory.GetReport("B");
+            reportB.SetCompanyInformation(company);
+
+            Console.WriteLine($" report B: {JsonConvert.SerializeObject(reportB)}");
+
+            company.CompanyName = "Z Company";
+
+            Console.ReadLine();
+
+            /*---------------------------- Proxy ---------------------------*/
+            Console.WriteLine();
+            Console.WriteLine("------------------------- Proxy -----------------------------------");
+
+
+            Console.ReadLine();
         }
 
     }

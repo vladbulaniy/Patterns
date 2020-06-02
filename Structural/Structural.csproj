@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -65,14 +68,19 @@
     <Compile Include="Facade\OnlineRestaurant.cs" />
     <Compile Include="Facade\Order.cs" />
     <Compile Include="Facade\ShippingService.cs" />
+    <Compile Include="Flyweight\CompanyInformation.cs" />
+    <Compile Include="Flyweight\Interfaces\IReport.cs" />
+    <Compile Include="Flyweight\ReportA.cs" />
+    <Compile Include="Flyweight\ReportB.cs" />
+    <Compile Include="Flyweight\ReportFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Flyweight\" />
     <Folder Include="Proxy\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
