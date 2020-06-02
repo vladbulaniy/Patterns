@@ -46,6 +46,25 @@
     <Compile Include="Adapter\Interfaces\ITarget.cs" />
     <Compile Include="Adapter\VendorAdaptee.cs" />
     <Compile Include="Adapter\VendorAdapter.cs" />
+    <Compile Include="Bridge\Interfaces\IBridgeComponent.cs" />
+    <Compile Include="Bridge\SendData.cs" />
+    <Compile Include="Bridge\SendEmail.cs" />
+    <Compile Include="Bridge\SendSMS.cs" />
+    <Compile Include="Bridge\ThirdPartyAPI.cs" />
+    <Compile Include="Bridge\WebService.cs" />
+    <Compile Include="Composite\CompositeGift.cs" />
+    <Compile Include="Composite\GiftBase.cs" />
+    <Compile Include="Composite\Interfaces\IGiftOperations.cs" />
+    <Compile Include="Composite\SingleGift.cs" />
+    <Compile Include="Decorator\OrderBase.cs" />
+    <Compile Include="Decorator\OrderDecorator.cs" />
+    <Compile Include="Decorator\PremiumPreorder.cs" />
+    <Compile Include="Decorator\Preorder.cs" />
+    <Compile Include="Decorator\Product.cs" />
+    <Compile Include="Decorator\RegularOrder.cs" />
+    <Compile Include="Facade\OnlineRestaurant.cs" />
+    <Compile Include="Facade\Order.cs" />
+    <Compile Include="Facade\ShippingService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -53,10 +72,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Bridge\Interfaces\" />
-    <Folder Include="Composite\" />
-    <Folder Include="Decorator\" />
-    <Folder Include="Facade\" />
     <Folder Include="Flyweight\" />
     <Folder Include="Proxy\" />
   </ItemGroup>

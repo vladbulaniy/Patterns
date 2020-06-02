@@ -5,3 +5,10 @@ D:\IDP\Desigion Patterns\Patterns\Structural\obj\Debug\Structural.csprojAssembly
 D:\IDP\Desigion Patterns\Patterns\Structural\obj\Debug\Structural.csproj.CoreCompileInputs.cache
 D:\IDP\Desigion Patterns\Patterns\Structural\obj\Debug\Structural.exe
 D:\IDP\Desigion Patterns\Patterns\Structural\obj\Debug\Structural.pdb
+F:\work-test\Desigin Patterns\Patterns\Structural\bin\Debug\Structural.exe.config
+F:\work-test\Desigin Patterns\Patterns\Structural\bin\Debug\Structural.exe
+F:\work-test\Desigin Patterns\Patterns\Structural\bin\Debug\Structural.pdb
+F:\work-test\Desigin Patterns\Patterns\Structural\obj\Debug\Structural.csprojAssemblyReference.cache
+F:\work-test\Desigin Patterns\Patterns\Structural\obj\Debug\Structural.csproj.CoreCompileInputs.cache
+F:\work-test\Desigin Patterns\Patterns\Structural\obj\Debug\Structural.exe
+F:\work-test\Desigin Patterns\Patterns\Structural\obj\Debug\Structural.pdb
